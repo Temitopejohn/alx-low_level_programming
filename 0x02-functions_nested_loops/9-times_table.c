@@ -11,7 +11,7 @@ void times_table(void)
 	{
 		_putchar(0);
 		for (column = 1; column <= 9; column++)
-												{
+		{
 			_putchar(',');
 			_putchar(' ');
 			product = row * column;
@@ -20,7 +20,7 @@ void times_table(void)
 			else
 				_putchar((product / 10) + '0');
 			_putchar((product % 10) + '0');
-												}
+		}
 		_putchar('\n');
 	}
 }
