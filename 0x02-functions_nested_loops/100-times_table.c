@@ -5,6 +5,7 @@
  * @n:input number
  * Return: Always 0 if successful
  */
+
 void print_times_table(int n)
 {
 	int num, multi, prod;
@@ -32,8 +33,8 @@ void print_times_table(int n)
 			else if (prod <= 99 && prod >= 10)
 			{
 				_putchar((prod / 10) + '0');
-													}
-				_putchar((prod % 10) + '0');
+			}
+			_putchar((prod % 10) + '0');
 		}
 		_putchar('\n');
 	}
