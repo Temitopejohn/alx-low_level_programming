@@ -6,6 +6,7 @@
  * @s: An input character
  * Return: Nothing
  */
+
 int _strlen(char *s)
 {
 	int len = 0;
